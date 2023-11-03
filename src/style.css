@@ -1,0 +1,222 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#jumbotron {
+
+  height: 100vh;
+  font-family: "Poppins";
+  color: white;
+}
+
+.webgl {
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.containerWeb {
+  position: absolute;
+  z-index: 1;
+    width:100%;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.contentWeb {
+  /*display: flex;*/
+  gap: 5em;
+  width: 100%;
+  padding-top: 3em;
+  position: relative;
+}
+
+.contentWeb h1 {
+    color: black;
+    font-weight: 700;
+}
+.contentWeb p{
+    color: black;
+    font-weight: 500;
+}
+
+.ctn{
+    color: white;
+}
+/*
+.contentWeb h1 {
+  font-size: 4rem;
+  width: 50vw;
+  line-height: 97%;
+  text-align: right;
+}
+
+
+.contentWeb h1,
+p {
+  flex-basis: 0;
+  flex-grow: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+
+.contentWeb p {
+  font-size: 1.3rem;
+  width: 40vw;
+}*/
+
+
+.contentWeb p {
+padding-bottom : 20px;
+}
+
+/*Css portofolio */
+
+#hobby img {
+  width: 120px;
+  padding-top: 15px;
+}
+
+.ukuran {
+  width: 5rem;
+}
+
+#about img {
+  width: 250px;
+}
+
+/* TEMA KUNING =====================================*/
+.text-color {
+  color: #1c2634;
+}
+
+.themeOrange {
+  background-color: #1c2634;
+}
+
+.themeLightOrange {
+  background-color: #fad8ab;
+}
+
+.wavesLightOrange {
+  fill: #fad8ab;
+}
+
+.wavesOrange {
+  fill: #1c2634;
+}
+
+/* TEMA BIRU ====================================*/
+.themeBlue {
+  background-color: rgb(79, 79, 233) !important;
+}
+
+.themeLightBlue {
+  background-color: rgb(22, 160, 240) !important;
+}
+
+.wavesLightBlue {
+  fill: rgb(22, 160, 240) !important ;
+}
+
+.wavesBlue {
+  fill: rgb(79, 79, 233) !important;
+}
+
+.judulColor {
+  color: rgb(79, 79, 233) !important;
+}
+
+.text-hitam {
+  color: black;
+}
+
+#foter{
+    font-size: small;
+}
+
+.navket{
+    font-weight: 700;
+}
+
+.card-text{
+    font-weight: 700;
+}
+.teks-ket{
+    font-size: 18px;
+    text-align: start;
+}
+
+.card-title{
+    font-weight: 700;
+}
+
+.fnt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+}
+
+/* PORTOFOLIO ====================================*/
+.cardzoom {
+  padding: 20px;
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+.cardzoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.posisiBgGmbr {
+  background-size: 128px;
+  background-repeat: no-repeat;
+  padding: 70px;
+  background-position: center center;
+}
+/* GAMBAR KUNING */
+.gambarHrdkuning {
+  background-image: url("https://i.ibb.co/vjtVnv3/circuit-board-8.png");
+}
+
+.gambarProgkuning {
+  background-image: url("https://i.ibb.co/pWXs3gv/programing-1.png");
+}
+
+.gambarNetkuning {
+  background-image: url("https://i.ibb.co/p1N7Tcj/computer-4.png");
+}
+
+/* Gambar Biru */
+.gambarHrdBiru {
+  background-image: url("https://i.ibb.co/WHCyDRg/circuit-board-7.png");
+}
+.gambarProgBiru {
+  background-image: url("https://i.ibb.co/HnDDMBG/programing.png");
+}
+.gambarNetBiru {
+  background-image: url("https://i.ibb.co/wdntz8W/computer-3.png");
+}
+
+.hmti {
+  background-image: url("https://i.ibb.co/wpdq7wX/hmti-poliwangi.png");
+}
+
+.robot {
+  background-image: url("https://i.ibb.co/WBzSG2r/logo-robotika-sip.png");
+}
+
+.pmr {
+  background-image: url("https://i.ibb.co/hHdsVx3/pmi.png");
+}
+
+#myCanvas {
+  margin: 0;
+  padding: 0;
+}
